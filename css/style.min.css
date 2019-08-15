@@ -1,6 +1,6 @@
 .view,body,html{
 	height:100%; font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";}
 .navbar{background-color:rgba(0,0,0,.2)}
-.page-footer,.top-nav-collapse{background-color:#3b6ca0}
+.page-footer,.top-nav-collapse{background-color:#000}
 @media only screen and (max-width:768px){
 	.navbar{background-color:#273c52}}#time-counter{font-size:5rem}
