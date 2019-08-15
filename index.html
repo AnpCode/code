@@ -29,10 +29,10 @@
       header,
       .view {
         height: 570px;
-		  font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+		  font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
       }
 		.navbar:not(.top-nav-collapse) {
-                background: #1C2331!important;
+                background: #1b2b46!important;
             }
     }
 
@@ -44,8 +44,9 @@
         height: 700px;
 		  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS"," Verdana", "sans-serif";
       }
-		.navbar:not(.top-nav-collapse) {
-                background: #1C2331!important;
+		
+		.navbar:not(.top-nav-collapse .navbar) {
+                background: #b89ec1!important;
             }
     }
 
@@ -56,15 +57,14 @@
       .view {
         height: 600px;
       }
-		.navbar:not(.top-nav-collapse) {
-                background: #1C2331!important;
+		.navbar:not(.top-nav-collapse .navbar) {
+                background: #273c5242!important;
             }
+		
     }
 
     @media (min-width: 800px) and (max-width: 850px) {
-            .navbar:not(.top-nav-collapse) {
-                background: #1C2331!important;
-            }
+            
         }
   </style>
 </head>
@@ -128,7 +128,7 @@
   <div class="view">
 
     <video class="video-intro" poster="img/gray.png"  autoplay muted loop>
-      <source src="https://mdbootstrap.com/img/video/Lines-min.mp4" type="video/mp4">
+      <!--<source src="https://mdbootstrap.com/img/video/Lines-min.mp4" type="video/mp4">-->
     </video>
 	  
     <!-- Mask & flexbox options-->
